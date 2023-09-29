@@ -156,6 +156,8 @@ img {
     height: 4px;
     border-radius: 2px;
     background: var(--OCEAN, #404BBF);
+    bottom: -1px;
+    
     transition: width 250ms;
 }
 
@@ -177,7 +179,7 @@ img {
         letter-spacing: 0.02em;
         padding: 24px 0;
         position: relative;
-        color: #404bbf;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-menu-link:hover, .header-menu-link:focus {
@@ -205,6 +207,7 @@ img {
         letter-spacing: 0.02em;
         padding-top: 24px;
         padding-bottom: 24px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-list-link:hover, .address-list-link:focus {
