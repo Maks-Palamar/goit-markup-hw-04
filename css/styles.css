@@ -179,6 +179,7 @@ img {
         letter-spacing: 0.02em;
         padding: 24px 0;
         position: relative;
+        color: #404bbf;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -464,7 +465,7 @@ img {
 
 .portfoliosection-project {
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
-    
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: calc((100% - 24px * 2) / 3);
 }
 
@@ -475,7 +476,7 @@ img {
 }
 
 .portfoliosection-project:hover .portfolio-text-wrap {
-    transform: translateY(0);
+    transform: translateY(0%);
 
 }
 
