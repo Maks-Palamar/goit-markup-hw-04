@@ -155,7 +155,7 @@ img {
     width: 0;
     height: 4px;
     border-radius: 2px;
-    background: var(--OCEAN, #404BBF);
+    background: var(--OCEAN, #404bbf);
     bottom: -1px;
     
     transition: width 250ms;
